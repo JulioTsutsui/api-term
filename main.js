@@ -1,8 +1,8 @@
 const app = require('./config/server');
 const db = require('./config/firestore');
 
-app.listen("80", ()=> {
-    console.log('\x1b[32m', 'Servidor está ON'); 
+app.listen("3000", ()=> {
+    console.log('Servidor está ON'); 
 });
 
 app.get("/api",(req,res)=>{
